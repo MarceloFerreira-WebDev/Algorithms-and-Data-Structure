@@ -17,5 +17,5 @@ const calculatorFunctions = {
   division: (a, b) => {
     if (b === 0) return 'não podemos dividir um número por 0';
     return a / b;
-  }
+  },
 };
