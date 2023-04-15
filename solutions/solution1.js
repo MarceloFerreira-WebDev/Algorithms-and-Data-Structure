@@ -6,15 +6,7 @@ const arrayReader = (array) => {
   const justNumbers = array.filter((element) => typeof element === 'number');
   const highestNumber = Math.max(...justNumbers);
 
-  console.log(
-    `Array só de letras: ${justLetters}
-Array só de números: ${justNumbers}
-Maior número do Array: ${highestNumber}`
-  );
-
   return `Array só de letras: ${justLetters}
 Array só de números: ${justNumbers}
 Maior número do Array: ${highestNumber}`
 };
-
-arrayReader(['a', 10, 'b', 'hola', 122, 15]);
